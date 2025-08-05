@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Image Gallery</h1>
+
+  <div class="buttons">
+    <button class="active" onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('child')">Child</button>
+    <button onclick="filterImages('dog')">Dog</button>
+    <button onclick="filterImages('adult')">Adult</button>
+  </div>
+
+  <div class="gallery">
+    <!-- CHILD -->
+    <img src="https://images.pexels.com/photos/1648377/pexels-photo-1648377.jpeg" class="child" alt="Child 1">
+    <!-- DOG -->
+    <img src="https://images.pexels.com/photos/4587996/pexels-photo-4587996.jpeg" class="dog" alt="Dog 1">
+    <img src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg" class="dog" alt="Dog 2">
+    <!-- ADULT -->
+    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" class="adult" alt="Adult 1">
+    <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg" class="adult" alt="Adult 2">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
